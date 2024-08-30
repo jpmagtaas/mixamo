@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC2EFCB28EED648003358BB /* MixamoTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFCA28EED648003358BB /* MixamoTaskApp.swift */; };
+		8CC2EFCD28EED648003358BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFCC28EED648003358BB /* ContentView.swift */; };
+		8CC2EFCF28EED64A003358BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2EFCE28EED64A003358BB /* Assets.xcassets */; };
+		8CC2EFD228EED64A003358BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2EFD128EED64A003358BB /* Preview Assets.xcassets */; };
+		8CC2EFDC28EED64A003358BB /* MixamoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFDB28EED64A003358BB /* MixamoTaskTests.swift */; };
+		8CC2EFE628EED64A003358BB /* MixamoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFE528EED64A003358BB /* MixamoTaskUITests.swift */; };
+		8CC2EFE828EED64A003358BB /* MixamoTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFE728EED64A003358BB /* MixamoTaskUITestsLaunchTests.swift */; };
+		8CC2EFF728EEDDFB003358BB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFF628EEDDFB003358BB /* CustomButton.swift */; };
+		8CC2EFFC28F0061B003358BB /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC2EFFB28F0061B003358BB /* SwiftSoup */; };
+		8CC2EFFF28F00CB4003358BB /* WebAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2EFFE28F00CB4003358BB /* WebAPIClient.swift */; };
+		8CC2F00228F00D33003358BB /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F00128F00D33003358BB /* Results.swift */; };
+		8CC2F00528F01599003358BB /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC2F00428F01599003358BB /* CachedAsyncImage */; };
+		8CC2F00728F01B8E003358BB /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F00628F01B8E003358BB /* GifImage.swift */; };
+		8CC2F00B28F07749003358BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F00A28F07749003358BB /* HomeView.swift */; };
+		8CC2F00E28F07783003358BB /* HomeTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F00D28F07783003358BB /* HomeTabBarView.swift */; };
+		8CC2F01028F077AF003358BB /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F00F28F077AF003358BB /* SavedView.swift */; };
+		8CC2F01228F077D4003358BB /* CharactersGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F01128F077D4003358BB /* CharactersGridView.swift */; };
+		8CC2F01428F077EB003358BB /* AnimationsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F01328F077EB003358BB /* AnimationsGridView.swift */; };
+		8CC2F01628F0780E003358BB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F01528F0780E003358BB /* CardView.swift */; };
+		8CC2F01828F0784C003358BB /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F01728F0784C003358BB /* DetailsView.swift */; };
+		8CC2F01A28F07951003358BB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2F01928F07951003358BB /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC2EFD828EED64A003358BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC2EFBF28EED648003358BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC2EFC628EED648003358BB;
+			remoteInfo = MixamoTask;
+		};
+		8CC2EFE228EED64A003358BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC2EFBF28EED648003358BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC2EFC628EED648003358BB;
+			remoteInfo = MixamoTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CC2EFC728EED648003358BB /* MixamoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixamoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2EFCA28EED648003358BB /* MixamoTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixamoTaskApp.swift; sourceTree = "<group>"; };
+		8CC2EFCC28EED648003358BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CC2EFCE28EED64A003358BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC2EFD128EED64A003358BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC2EFD728EED64A003358BB /* MixamoTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixamoTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2EFDB28EED64A003358BB /* MixamoTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixamoTaskTests.swift; sourceTree = "<group>"; };
+		8CC2EFE128EED64A003358BB /* MixamoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixamoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2EFE528EED64A003358BB /* MixamoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixamoTaskUITests.swift; sourceTree = "<group>"; };
+		8CC2EFE728EED64A003358BB /* MixamoTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixamoTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CC2EFF628EEDDFB003358BB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8CC2EFFE28F00CB4003358BB /* WebAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIClient.swift; sourceTree = "<group>"; };
+		8CC2F00128F00D33003358BB /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		8CC2F00628F01B8E003358BB /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		8CC2F00A28F07749003358BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8CC2F00D28F07783003358BB /* HomeTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarView.swift; sourceTree = "<group>"; };
+		8CC2F00F28F077AF003358BB /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		8CC2F01128F077D4003358BB /* CharactersGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersGridView.swift; sourceTree = "<group>"; };
+		8CC2F01328F077EB003358BB /* AnimationsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsGridView.swift; sourceTree = "<group>"; };
+		8CC2F01528F0780E003358BB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8CC2F01728F0784C003358BB /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		8CC2F01928F07951003358BB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC2EFC428EED648003358BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2EFFC28F0061B003358BB /* SwiftSoup in Frameworks */,
+				8CC2F00528F01599003358BB /* CachedAsyncImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFD428EED64A003358BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFDE28EED64A003358BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC2EFBE28EED648003358BB = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFC928EED648003358BB /* MixamoTask */,
+				8CC2EFDA28EED64A003358BB /* MixamoTaskTests */,
+				8CC2EFE428EED64A003358BB /* MixamoTaskUITests */,
+				8CC2EFC828EED648003358BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC2EFC828EED648003358BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFC728EED648003358BB /* MixamoTask.app */,
+				8CC2EFD728EED64A003358BB /* MixamoTaskTests.xctest */,
+				8CC2EFE128EED64A003358BB /* MixamoTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC2EFC928EED648003358BB /* MixamoTask */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2F00828F07738003358BB /* Screens */,
+				8CC2F00028F00D1F003358BB /* Models */,
+				8CC2EFFD28F00C80003358BB /* Networking */,
+				8CC2EFF528EEDDEA003358BB /* SupportingViews */,
+				8CC2EFF428EEDCC4003358BB /* Modifiers */,
+				8CC2EFCA28EED648003358BB /* MixamoTaskApp.swift */,
+				8CC2EFCC28EED648003358BB /* ContentView.swift */,
+				8CC2EFCE28EED64A003358BB /* Assets.xcassets */,
+				8CC2EFD028EED64A003358BB /* Preview Content */,
+			);
+			path = MixamoTask;
+			sourceTree = "<group>";
+		};
+		8CC2EFD028EED64A003358BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFD128EED64A003358BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CC2EFDA28EED64A003358BB /* MixamoTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFDB28EED64A003358BB /* MixamoTaskTests.swift */,
+			);
+			path = MixamoTaskTests;
+			sourceTree = "<group>";
+		};
+		8CC2EFE428EED64A003358BB /* MixamoTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFE528EED64A003358BB /* MixamoTaskUITests.swift */,
+				8CC2EFE728EED64A003358BB /* MixamoTaskUITestsLaunchTests.swift */,
+			);
+			path = MixamoTaskUITests;
+			sourceTree = "<group>";
+		};
+		8CC2EFF428EEDCC4003358BB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		8CC2EFF528EEDDEA003358BB /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFF628EEDDFB003358BB /* CustomButton.swift */,
+				8CC2F00628F01B8E003358BB /* GifImage.swift */,
+			);
+			path = SupportingViews;
+			sourceTree = "<group>";
+		};
+		8CC2EFFD28F00C80003358BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2EFFE28F00CB4003358BB /* WebAPIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8CC2F00028F00D1F003358BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2F00128F00D33003358BB /* Results.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CC2F00828F07738003358BB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2F00928F0773F003358BB /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8CC2F00928F0773F003358BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2F00C28F0776D003358BB /* Components */,
+				8CC2F00A28F07749003358BB /* HomeView.swift */,
+				8CC2F01928F07951003358BB /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8CC2F00C28F0776D003358BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2F00D28F07783003358BB /* HomeTabBarView.swift */,
+				8CC2F00F28F077AF003358BB /* SavedView.swift */,
+				8CC2F01128F077D4003358BB /* CharactersGridView.swift */,
+				8CC2F01328F077EB003358BB /* AnimationsGridView.swift */,
+				8CC2F01528F0780E003358BB /* CardView.swift */,
+				8CC2F01728F0784C003358BB /* DetailsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC2EFC628EED648003358BB /* MixamoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC2EFEB28EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTask" */;
+			buildPhases = (
+				8CC2EFC328EED648003358BB /* Sources */,
+				8CC2EFC428EED648003358BB /* Frameworks */,
+				8CC2EFC528EED648003358BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixamoTask;
+			packageProductDependencies = (
+				8CC2EFFB28F0061B003358BB /* SwiftSoup */,
+				8CC2F00428F01599003358BB /* CachedAsyncImage */,
+			);
+			productName = MixamoTask;
+			productReference = 8CC2EFC728EED648003358BB /* MixamoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CC2EFD628EED64A003358BB /* MixamoTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC2EFEE28EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTaskTests" */;
+			buildPhases = (
+				8CC2EFD328EED64A003358BB /* Sources */,
+				8CC2EFD428EED64A003358BB /* Frameworks */,
+				8CC2EFD528EED64A003358BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC2EFD928EED64A003358BB /* PBXTargetDependency */,
+			);
+			name = MixamoTaskTests;
+			productName = MixamoTaskTests;
+			productReference = 8CC2EFD728EED64A003358BB /* MixamoTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CC2EFE028EED64A003358BB /* MixamoTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC2EFF128EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTaskUITests" */;
+			buildPhases = (
+				8CC2EFDD28EED64A003358BB /* Sources */,
+				8CC2EFDE28EED64A003358BB /* Frameworks */,
+				8CC2EFDF28EED64A003358BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC2EFE328EED64A003358BB /* PBXTargetDependency */,
+			);
+			name = MixamoTaskUITests;
+			productName = MixamoTaskUITests;
+			productReference = 8CC2EFE128EED64A003358BB /* MixamoTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC2EFBF28EED648003358BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8CC2EFC628EED648003358BB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					8CC2EFD628EED64A003358BB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 8CC2EFC628EED648003358BB;
+					};
+					8CC2EFE028EED64A003358BB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 8CC2EFC628EED648003358BB;
+					};
+				};
+			};
+			buildConfigurationList = 8CC2EFC228EED648003358BB /* Build configuration list for PBXProject "MixamoTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC2EFBE28EED648003358BB;
+			packageReferences = (
+				8CC2EFFA28F0061B003358BB /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				8CC2F00328F01599003358BB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
+			productRefGroup = 8CC2EFC828EED648003358BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC2EFC628EED648003358BB /* MixamoTask */,
+				8CC2EFD628EED64A003358BB /* MixamoTaskTests */,
+				8CC2EFE028EED64A003358BB /* MixamoTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC2EFC528EED648003358BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2EFD228EED64A003358BB /* Preview Assets.xcassets in Resources */,
+				8CC2EFCF28EED64A003358BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFD528EED64A003358BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFDF28EED64A003358BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC2EFC328EED648003358BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2EFFF28F00CB4003358BB /* WebAPIClient.swift in Sources */,
+				8CC2F00B28F07749003358BB /* HomeView.swift in Sources */,
+				8CC2EFCD28EED648003358BB /* ContentView.swift in Sources */,
+				8CC2F00728F01B8E003358BB /* GifImage.swift in Sources */,
+				8CC2F01228F077D4003358BB /* CharactersGridView.swift in Sources */,
+				8CC2EFCB28EED648003358BB /* MixamoTaskApp.swift in Sources */,
+				8CC2F01828F0784C003358BB /* DetailsView.swift in Sources */,
+				8CC2F01428F077EB003358BB /* AnimationsGridView.swift in Sources */,
+				8CC2F01028F077AF003358BB /* SavedView.swift in Sources */,
+				8CC2F01A28F07951003358BB /* HomeViewModel.swift in Sources */,
+				8CC2EFF728EEDDFB003358BB /* CustomButton.swift in Sources */,
+				8CC2F00228F00D33003358BB /* Results.swift in Sources */,
+				8CC2F01628F0780E003358BB /* CardView.swift in Sources */,
+				8CC2F00E28F07783003358BB /* HomeTabBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFD328EED64A003358BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2EFDC28EED64A003358BB /* MixamoTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC2EFDD28EED64A003358BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2EFE828EED64A003358BB /* MixamoTaskUITestsLaunchTests.swift in Sources */,
+				8CC2EFE628EED64A003358BB /* MixamoTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC2EFD928EED64A003358BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC2EFC628EED648003358BB /* MixamoTask */;
+			targetProxy = 8CC2EFD828EED64A003358BB /* PBXContainerItemProxy */;
+		};
+		8CC2EFE328EED64A003358BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC2EFC628EED648003358BB /* MixamoTask */;
+			targetProxy = 8CC2EFE228EED64A003358BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CC2EFE928EED64A003358BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CC2EFEA28EED64A003358BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC2EFEC28EED64A003358BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MixamoTask/Preview Content\"";
+				DEVELOPMENT_TEAM = XYNLH824F2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to gallery to save your downloaded characters";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CC2EFED28EED64A003358BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MixamoTask/Preview Content\"";
+				DEVELOPMENT_TEAM = XYNLH824F2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to gallery to save your downloaded characters";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CC2EFEF28EED64A003358BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixamoTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MixamoTask";
+			};
+			name = Debug;
+		};
+		8CC2EFF028EED64A003358BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixamoTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MixamoTask";
+			};
+			name = Release;
+		};
+		8CC2EFF228EED64A003358BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixamoTask;
+			};
+			name = Debug;
+		};
+		8CC2EFF328EED64A003358BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpmagtaas.MixamoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixamoTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC2EFC228EED648003358BB /* Build configuration list for PBXProject "MixamoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2EFE928EED64A003358BB /* Debug */,
+				8CC2EFEA28EED64A003358BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC2EFEB28EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2EFEC28EED64A003358BB /* Debug */,
+				8CC2EFED28EED64A003358BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC2EFEE28EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2EFEF28EED64A003358BB /* Debug */,
+				8CC2EFF028EED64A003358BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC2EFF128EED64A003358BB /* Build configuration list for PBXNativeTarget "MixamoTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2EFF228EED64A003358BB /* Debug */,
+				8CC2EFF328EED64A003358BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CC2EFFA28F0061B003358BB /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8CC2F00328F01599003358BB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CC2EFFB28F0061B003358BB /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CC2EFFA28F0061B003358BB /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		8CC2F00428F01599003358BB /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CC2F00328F01599003358BB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CC2EFBF28EED648003358BB /* Project object */;
+}
